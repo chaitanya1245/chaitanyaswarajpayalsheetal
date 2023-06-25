@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Universitu Wedsite Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+   <nav>
+       <a href="index.html"><img src="images/logo.png"></a>
+       <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="course.html">COURSE</a></li>
+               <li><a href="blog.html">BLOG</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+           </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<!------ Course ----->
+
+<section class="course">
+   <h1>Courses We Offer</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    
+    <div class="row">
+        <div class="course">
+            <h3>Intermediate</h3>
+            <P>Middle school, also known as intermediate school. Intermediate Examination, standardized post-secondary exams in the Indian Subcontinent, also known as the Higher Secondary Examination.</P>
+        </div>
+               <div class="course">
+            <h3>Degree</h3>
+            <P>An academic degree is a qualification awarded to a student upon successful completion of a course of study in higher education, usually at a college or university. These institutions often offer degrees at various levels, usually divided into undergraduate and postgraduate degrees.</P>
+        </div>
+               <div class="course">
+            <h3>Post Graduation</h3>
+            <P>A postgraduate degree is a type of qualification that is completed after an undergraduate degree. Postgraduate degrees encompass a range of qualifications, including masters degrees, Postgraduate Diplomas and Certificates, and PhDs.</P>
+        </div>
+    </div>
+    
+    
+</section>
+
+<!------ facillties ------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur sdipiscing elit.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Word Class Library</h3>
+            <p>noun,plural li·brar·ies. a place set apart to contain books, periodicals, and other material for reading, viewing, listening, study, or reference, as a room, set of rooms, or building where books may be read or borrowed.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Children have been let loose at what is claimed to be the world's biggest play park. Lilidorei is located in Alnwick Gardens, next to the Northumbrian castle used in the Harry Potter films.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty And Healthy Food</h3>
+            <p>Herbs and spices can be used to add delicious flavours without the need for salt or oil. Here are a few tips you can try: Fresh herbs are delicately flavoured so add them to your cooking in the last few minutes.</p>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<!------ Footer ------>
+
+<section class="footer">
+   <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing slitpellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenat is ex,et daibus purus.</p>
+    <div class="icons">
+       <i class="fa fa-facebook"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart"></i> by chaitanya swaraj payal sheetal</p>
+</section>
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+       navLinks.style.right = "0"; 
+    }
+    function hideMenu(){
+       navLinks.style.right = "-200px"; 
+    }
+</script>    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
